@@ -1,0 +1,79 @@
+This is the codebook describing the tidy data set which is uploaded.
+
+The file contains 180 rows excluding the row, that represents the column names.
+There are 69 columns in total and its description is given below.
+
+Code book is same for both the .txt and .csv files.
+
+
+1   Activity_Label     -> Indicates descriptively the activity name [Factor]
+2   Subject.           -> Indicates the number or ID of the subject [Integer]
+3   Activity  Label    -> Indicates the number corresponding to the activity as per activity_labels.txt [Integer]
+
+
+4   tBodyAcc-mean()-X
+5   tBodyAcc-mean()-Y
+6   tBodyAcc-mean()-Z
+7   tGravityAcc-mean()-X
+8   tGravityAcc-mean()-Y
+9   tGravityAcc-mean()-Z
+10  tBodyAccJerk-mean()-X
+11  tBodyAccJerk-mean()-Y
+12  tBodyAccJerk-mean()-Z
+13  tBodyGyro-mean()-X
+14  tBodyGyro-mean()-Y
+15  tBodyGyro-mean()-Z
+16  tBodyGyroJerk-mean()-X
+17  tBodyGyroJerk-mean()-Y
+18  tBodyGyroJerk-mean()-Z
+19  tBodyAccMag-mean()
+20  tGravityAccMag-mean()
+21  tBodyAccJerkMag-mean()
+22  tBodyGyroMag-mean()
+23  tBodyGyroJerkMag-mean()
+24  fBodyAcc-mean()-X
+25  fBodyAcc-mean()-Y
+26  fBodyAcc-mean()-Z
+27  fBodyAccJerk-mean()-X
+28  fBodyAccJerk-mean()-Y
+29  fBodyAccJerk-mean()-Z
+30  fBodyGyro-mean()-X
+31  fBodyGyro-mean()-Y
+32  fBodyGyro-mean()-Z
+33  fBodyAccMag-mean()
+34  fBodyBodyAccJerkMag-mean()
+35  fBodyBodyGyroMag-mean()
+36  fBodyBodyGyroJerkMag-mean() Columns 4-36 represent the mean of the given variables for corresponding activity and Subject [Numeric]
+37  tBodyAcc-std()-X
+38  tBodyAcc-std()-Y
+39  tBodyAcc-std()-Z
+40  tGravityAcc-std()-X
+41  tGravityAcc-std()-Y
+42  tGravityAcc-std()-Z
+43  tBodyAccJerk-std()-X
+44  tBodyAccJerk-std()-Y
+45  tBodyAccJerk-std()-Z
+46  tBodyGyro-std()-X
+47  tBodyGyro-std()-Y
+48  tBodyGyro-std()-Z
+49  tBodyGyroJerk-std()-X
+50  tBodyGyroJerk-std()-Y
+51  tBodyGyroJerk-std()-Z
+52  tBodyAccMag-std()
+53  tGravityAccMag-std()
+54  tBodyAccJerkMag-std()
+55  tBodyGyroMag-std()
+56  tBodyGyroJerkMag-std()
+57  fBodyAcc-std()-X
+58  fBodyAcc-std()-Y
+59  fBodyAcc-std()-Z
+60  fBodyAccJerk-std()-X
+61  fBodyAccJerk-std()-Y
+62  fBodyAccJerk-std()-Z
+63  fBodyGyro-std()-X
+64  fBodyGyro-std()-Y
+65  fBodyGyro-std()-Z
+66  fBodyAccMag-std()
+67  fBodyBodyAccJerkMag-std()
+68  fBodyBodyGyroMag-std()
+69  fBodyBodyGyroJerkMag-std() Columns 37-69 represent the standard deviation of the given variables for corresponding activity and Subject [Numeric]
